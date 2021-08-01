@@ -35,7 +35,8 @@ public class WordCount {
             for (String v: onlyWords) {
                 words.add(v);
             }
-
+            
+            // compound words are treated as seperate words
             System.out.println("Total words: " + words.size());
 
             ArrayList<Word> wordCount = new ArrayList<Word>();
