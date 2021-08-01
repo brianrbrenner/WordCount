@@ -15,7 +15,7 @@ public class WordCount {
 
             String all = "";
 
-            // concatinate each line in file to all
+            // concatenate each line in file to all
             while (fileScanner.hasNextLine()) {
                 all += fileScanner.nextLine() + " ";
             }
