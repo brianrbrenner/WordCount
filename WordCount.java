@@ -15,14 +15,14 @@ public class WordCount {
 
             String all = "";
 
-            //concatinate each line in file to all
+            // concatinate each line in file to all
             while (fileScanner.hasNextLine()) {
                 all += fileScanner.nextLine() + " ";
             }
 
             ArrayList<String> sentences = new ArrayList<String>();
 
-            //split sentences by period, and add to ArrayList sentences with whitespaces stripped
+            // split sentences by period, and add to ArrayList sentences with whitespaces stripped
             String[] splitPeriod = all.split("\\."); 
             for (String v: splitPeriod) {
                 sentences.add(v.strip());
